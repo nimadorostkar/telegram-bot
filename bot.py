@@ -2,7 +2,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import requests
 import json
 
-updater = Updater('1094887685:AAFLLjhqPtR_IKER8crAlgx3qmYHl5rocVE')
+updater = Updater('Telegram key')
 
 
 
