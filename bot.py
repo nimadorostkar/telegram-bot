@@ -2,7 +2,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import requests
 import json
 
-updater = Updater('Telegram key')
+updater = Updater('Telegram api key')
 
 
 
@@ -20,7 +20,7 @@ def info(bot, update):
 def admin_control(bot, update):
     if (update.message.chat_id == 378089614 ):  # if (update.message.from_user.first_name == "@nimadorostkar" )
         bot.send_message(chat_id = update.message.chat_id , text = "✅ admin find ✅  ")
-        bot.send_message(chat_id = update.message.chat_id , text = "✅ update ! ✅ ")
+        bot.send_message(chat_id = update.message.chat_id , text = "✅ update !! ✅ ")
     else:
         bot.send_message(chat_id = update.message.chat_id , text = " ❌ error ❌ ")
 
