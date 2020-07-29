@@ -2,7 +2,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import requests
 import json
 
-updater = Updater('Telegram api key')
+updater = Updater('Telegramm api key')
 
 
 
