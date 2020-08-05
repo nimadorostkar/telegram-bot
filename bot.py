@@ -7,7 +7,7 @@ updater = Updater('Telegramm api key')
 
 
 def start(bot, update):
-    bot.send_message(chat_id = update.message.chat_id , text = "salammm dooste aziz 🌹 , khosh oomadi {}  \n\n\n\n  /start--> salam\n /admin--> admin control \n /help--> help\n /info--> info".format(update.message.from_user.first_name))
+    bot.send_message(chat_id = update.message.chat_id , text = "salamm dooste azizzzz 🌹 , khosh oomadi {}  \n\n\n\n  /start--> salam\n /admin--> admin control \n /help--> help\n /info--> info".format(update.message.from_user.first_name))
     print(update)
     print("---------------")
 
