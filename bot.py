@@ -7,15 +7,15 @@ updater = Updater('Telegramm api key')
 
 
 def start(bot, update):
-    bot.send_message(chat_id = update.message.chat_id , text = "salamm dooste azizzzz 🌹 , khosh oomadi {}  \n\n\n\n  /start--> salam\n /admin--> admin control \n /help--> help\n /info--> info".format(update.message.from_user.first_name))
+    bot.send_message(chat_id = update.message.chat_id , text = "salamm dooste azizzz 🌹 , khosh oommadii {}  \n\n\n\n  /start--> salam\n /admin--> admin control \n /help--> help\n /info--> info".format(update.message.from_user.first_name))
     print(update)
     print("---------------")
 
 def helper(bot, update):
-    bot.send_message(chat_id = update.message.chat_id , text = "help help help help help help help ")
+    bot.send_message(chat_id = update.message.chat_id , text = "help help helphelp help help ")
 
 def info(bot, update):
-    bot.send_message(chat_id = update.message.chat_id , text = "info info info info info info info  ")
+    bot.send_message(chat_id = update.message.chat_id , text = "info info info info info info  ")
 
 def admin_control(bot, update):
     if (update.message.chat_id == 378089614 ):  # if (update.message.from_user.first_name == "@nimadorostkar" )
