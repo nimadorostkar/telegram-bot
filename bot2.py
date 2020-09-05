@@ -1,10 +1,8 @@
-# _*_ coding:utf-8 _*_
-
 from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackQueryHandler
 from telegram import InlineKeyboardButton , InlineKeyboardMarkup
 
 
-updater = Updater('1094887685:AAFLLjhqPtR_IKER8crAlgx3qmYHl5rocVE')
+updater = Updater('telegram api key')
 livestream = open("livestream.txt", "r")
 livestream_text = livestream.read()
 
