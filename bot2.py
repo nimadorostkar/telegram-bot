@@ -10,9 +10,6 @@ def start(bot, update):
     bot.send_message(chat_id = update.message.chat_id ,
     text = " سلام {} ".format(update.message.from_user.first_name) + "\n  به ربات رویال۹۰ خوش آمدید 🌹   \n شما همواره می توانید لینک پخش زنده بازیهای فوتبال از تمامی لیگ های دنیا را دریافت کنید .  \n\n /start--> salam\n  /info--> more info ")
 
-    print(update)
-    print("---------------")
-
 
     keyboard0 = [
                 [InlineKeyboardButton("livestream" , callback_data="01")]
